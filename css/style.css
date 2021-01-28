@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 50px 50px;
 }
 
 .bloc-md {
@@ -518,6 +518,7 @@ button {
 
 .icon-md {
     font-size: 30px!important;
+    color: rgba(0,0,0, .5)!important;
 }
 
 .icon-lg {
@@ -695,9 +696,14 @@ a {
     color: #575757!important;
 }
 
-.bloc h2
-{margin-bottom: 100px;
-font-size: 22px;}
+.bloc h2 {
+    margin-bottom: 100px;
+    font-size: 22px;
+}
+
+.bloc-lg h2{
+    font-size: 38px!important;
+}
 
 .container {
     max-width: 1000px;
@@ -1091,4 +1097,23 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+.contacts {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.contacts p a{
+    font-size: 1.6em;
+}
+
+.contacts a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+footer{
+    padding-bottom: 30px;
+    margin-bottom: 20px; 
 }
