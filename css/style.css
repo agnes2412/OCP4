@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 50px 50px;
+    padding: 100px 50px;
 }
 
 .bloc-md {
@@ -478,7 +478,11 @@ nav .caret {
 
 .mg-md {
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+.titre3_paragraphe {
+    margin-bottom: 30px;
 }
 
 .mg-lg {
@@ -697,12 +701,26 @@ a {
 }
 
 .bloc h2 {
-    margin-bottom: 100px;
-    font-size: 22px;
+    margin-bottom: 25px;
+    font-size: 25px;
 }
 
-.bloc-lg h2{
-    font-size: 38px!important;
+.titre2 {
+    font-size: 22px!important;
+}
+
+.titre2_paragraphe {
+    font-size: 17px!important;
+    margin-bottom: 20px;
+}
+
+.titre2_contact {
+    font-size: 24px;
+    text-align: center;
+}
+
+.titre2_page2 {
+    color: #fcf8e3!important;
 }
 
 .container {
@@ -728,7 +746,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .tight-width-whitespace {
@@ -792,9 +810,19 @@ h4 {
     margin-bottom: 24px;
 }
 
+.img3 {
+    width: 100%;
+    object-fit: cover;
+}
+
+.img4 {
+    width: 100%;
+    object-fit: cover;
+}
+
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
 }
 
 .avatar {
@@ -824,6 +852,23 @@ h4 {
 }
 
 .tc-white {
+    color: #fcf8e3!important;
+    font-size: 32px;
+    font-family: "helvetica";
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+.text_contact{
+    color: #fcf8e3!important;
+    font-size: 18px!important;
+    font-family: "helvetica";
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+.nom_agence {
     color: #F3976C!important;
     font-size: 32px;
     font-family: "helvetica";
@@ -1105,15 +1150,10 @@ h4 {
 }
 
 .contacts p a{
-    font-size: 1.6em;
+    font-size: 1.4em;
 }
 
 .contacts a:hover {
     color: black;
     font-weight: bold;
-}
-
-footer{
-    padding-bottom: 30px;
-    margin-bottom: 20px; 
 }
