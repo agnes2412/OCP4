@@ -43,12 +43,12 @@ a:hover {
     padding-left: 0;
     padding-right: 0;
 }
-.bloc-lg
-{
+
+.bloc-lg {
     padding: 50px 50px;
 }
 
-.portfolio_presentation{
+.portfolio_presentation {
     padding-top: 0;
     padding-bottom: 10px;
 }
@@ -282,9 +282,9 @@ a:hover {
 
 @media (max-width: 992px) {
     .voffset-lg {
-    margin-right: 0;
-    margin-left: 0;
-}
+         margin-right: 0;
+         margin-left: 0;
+    }
 }
 
 q {
@@ -317,20 +317,20 @@ h1 {
 
 @media (max-width: 1200px){
     h1 {
-    margin: 20px 150px 10px 150px;
-}
+        margin: 20px 150px 10px 150px;
+    }
 }
 
 @media (max-width: 1000px){
     h1 {
-    margin: 20px 50px 10px 50px;
-}
+        margin: 20px 50px 10px 50px;
+    }
 }
 
 @media (max-width: 700px){
     h1 {
-    margin: 20px 0px 10px 0px;
-}
+        margin: 20px 0px 10px 0px;
+    }
 }
 
 .navbar {
@@ -715,9 +715,9 @@ a {
 }
 
 @media (max-width: 500px) {
-.titre2 {
-    font-size: 19px!important;
-}
+    .titre2 {
+        font-size: 19px!important;
+    }
 }
 
 .titre2_paragraphe {
@@ -726,9 +726,9 @@ a {
 }
 
 @media (max-width: 500px) {
-.titre2_paragraphe {
-    font-size: 13px!important;
-}
+    .titre2_paragraphe {
+        font-size: 13px!important;
+    }
 }
 
 .titre2_contact {
@@ -737,9 +737,9 @@ a {
 }
 
 @media (max-width: 500px) {
-.titre2_contact {
-    font-size: 20px!important;
-}
+    .titre2_contact {
+        font-size: 20px!important;
+    }
 }
 
 .container {
@@ -855,9 +855,8 @@ h4 {
 
 @media (max-width: 500px) {
     .black-background {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px 0;
-}
+     padding: 10px 5px;
+    }
 }
 
 .bold-link {
@@ -867,10 +866,6 @@ h4 {
 
 .bgc-white {
     background-color: #FFFFFF;
-}
-
-.bgc-dark-slate-blue {
-    background-color: #364577;
 }
 
 .bgc-atomic-tangerine {
@@ -920,7 +915,7 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: #F3976C!important;
 }
 
 .ltc-atomic-tangerine {
@@ -975,7 +970,7 @@ h4 {
     }
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1154,6 +1149,7 @@ h4 {
         width: 180px;
         height: 320px;
     }
+} 
 
 @media (max-width: 400px) {
     .bloc {
@@ -1166,6 +1162,12 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+}
+
+@media (max-width: 767px) {
+    .bloc-lg {
+        padding-top: 0;
+}
 }
 
 .contacts {
