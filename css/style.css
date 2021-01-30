@@ -53,6 +53,13 @@ a:hover {
     padding-bottom: 10px;
 }
 
+@media (max-width: 768px) {
+    .portfolio_presentation {
+    padding-top: 0px!important;
+    padding-bottom: 10px;
+}
+}
+
 .bloc-md {
     padding: 50px;
 }
@@ -347,6 +354,10 @@ h1 {
     line-height: 44px;
 }
 
+.navbar-brand:focus {
+    border: 2px solid #F3976C!important;
+}
+
 .navbar-brand img {
     max-height: 200px;
     margin: 0 5px 0 0;
@@ -378,9 +389,13 @@ h1 {
     text-align: inherit;
 }
 
-.nav > li a:hover,
+.nav > li a:hover {
+    background: transparent;
+    text-decoration: underline;
+}
 .nav > li a:focus {
     background: transparent;
+    border: 2px solid #F3976C;  
 }
 
 .navbar-toggle {
@@ -525,6 +540,14 @@ button {
     box-shadow: 0 1px 3px rgba(0, 0, 1, .25), inset 0 1px 0 0 rgba(255, 255, 255, .15);
 }
 
+.btn-clean:hover{
+    box-shadow: 4px 4px 4px black;
+}
+
+.btn-clean:focus{
+    font-size: 1.3em;
+}
+
 .icon-md {
     font-size: 30px!important;
     color: rgba(0,0,0, .5)!important;
@@ -572,8 +595,16 @@ button {
     transition: all .3s ease-in-out;
 }
 
+.scrollToTop:hover {
+   background-color: rgba(0, 0, 0, .8);
+}
+
 .scrollToTop span {
     margin-top: 6px;
+}
+
+.scrollToTop:hover span {
+    color: #ffffff;
 }
 
 .showScrollTop {
@@ -714,6 +745,10 @@ a {
     font-size: 22px!important;
 }
 
+.titre2_page2 {
+    text-shadow: 2px 2px 2px rgba(0,0,0, .5);
+}
+
 @media (max-width: 500px) {
     .titre2 {
         font-size: 19px!important;
@@ -766,6 +801,11 @@ a {
 
 p {
     font-size: 13px;
+}  
+
+footer .white {
+    font-size: 15px;
+    color: rgba(0,0,0, .8)!important;
 }
 
 .tight-width-whitespace {
@@ -774,7 +814,7 @@ p {
 }
 
 .tight-width-whitespace h2{
-    font-size: 22px;
+    font-size: 22px!important;
     line-height: 1.4em;
 }
 
@@ -792,6 +832,10 @@ p {
     padding: 12px 28px 12px 28px;
     font-size: 16px;
     font-weight: 700;
+}
+
+.cta-hero:focus {
+    font-size: 1.3em;
 }
 
 .social {
@@ -849,7 +893,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, .4);
     padding: 40px 40px 40px 40px;
 }
 
@@ -864,6 +908,11 @@ h4 {
     text-decoration: underline!important;
 }
 
+.bold-link:focus {
+    border: 2px solid white;
+    text-decoration: none!important;
+}
+
 .bgc-white {
     background-color: #FFFFFF;
 }
@@ -874,7 +923,7 @@ h4 {
 
 .tc-white {
     color: #fcf8e3!important;
-    font-size: 22px;
+    font-size: 20px;
     font-family: "helvetica";
     font-weight: 400;
 }
@@ -885,11 +934,13 @@ h4 {
     font-family: "helvetica";
     font-weight: 400;
     margin-top: 20px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 2px rgba(0,0,0, .5);
 }
 
 .nom_agence {
     color: #F3976C!important;
+    text-shadow: 4px 4px 4px black;
     font-size: 32px;
     font-family: "helvetica";
     font-weight: 400;
@@ -902,7 +953,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: rgba(0,0,0, .8)!important;
 }
 
 .btn-atomic-tangerine:hover {
@@ -1166,7 +1217,7 @@ h4 {
 
 @media (max-width: 767px) {
     .bloc-lg {
-        padding-top: 0;
+        padding-top: 40px;
 }
 }
 
