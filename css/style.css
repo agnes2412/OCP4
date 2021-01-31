@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 50px 50px;
+    padding: 100px 50px;
 }
 
 .portfolio_presentation {
@@ -544,13 +544,19 @@ button {
     box-shadow: 4px 4px 4px black;
 }
 
-.btn-clean:focus{
-    font-size: 1.3em;
-}
-
 .icon-md {
     font-size: 30px!important;
     color: rgba(0,0,0, .5)!important;
+}
+
+.icon-md:hover {
+    font-size: 35px!important;
+    color: #000000!important;
+}
+
+.icon-md:focus {
+    font-size: 35px!important;
+    color: #ffffff!important;
 }
 
 .icon-lg {
@@ -601,6 +607,7 @@ button {
 
 .scrollToTop span {
     margin-top: 6px;
+    color: #000000;
 }
 
 .scrollToTop:hover span {
@@ -736,6 +743,11 @@ a {
     color: #575757!important;
 }
 
+.bgc-dark-slate-blue {
+    background-color: #364577;
+}
+
+
 .bloc h2 {
     margin-bottom: 25px;
     font-size: 25px;
@@ -756,7 +768,7 @@ a {
 }
 
 .titre2_paragraphe {
-    font-size: 17px!important;
+    font-size: 15px!important;
     margin-bottom: 20px;
 }
 
@@ -834,10 +846,6 @@ footer .white {
     font-weight: 700;
 }
 
-.cta-hero:focus {
-    font-size: 1.3em;
-}
-
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
@@ -899,7 +907,7 @@ h4 {
 
 @media (max-width: 500px) {
     .black-background {
-     padding: 10px 5px;
+     padding: 10px 0px;
     }
 }
 
@@ -908,9 +916,8 @@ h4 {
     text-decoration: underline!important;
 }
 
-.bold-link:focus {
-    border: 2px solid white;
-    text-decoration: none!important;
+.bold-link:focus-visible {
+    text-decoration: underline!important;
 }
 
 .bgc-white {
@@ -957,8 +964,15 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #84543d!important;
     color: #FFFFFF!important;
+}
+
+.btn-atomic-tangerine:focus {
+    background: #84543d!important;
+    color: #FFFFFF!important;
+    text-decoration: underline;
+    font-size: 1.3em;
 }
 
 .ltc-white {
@@ -967,6 +981,10 @@ h4 {
 
 .ltc-white:hover {
     color: #F3976C!important;
+}
+
+.ltc-white:focus {
+    outline: 2px solid white!important;
 }
 
 .ltc-atomic-tangerine {
@@ -995,7 +1013,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("../img/image-de-presentation.bmp");
+    background-image: url("../img/image-de-presentation_reduite.bmp");
 }
 
 @media (max-width: 1024px) {
@@ -1060,6 +1078,11 @@ h4 {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+}
+
+.page-container {
+    max-width: 1800px;
+    margin: auto;
 }
 
 @media (max-width: 767px) {
