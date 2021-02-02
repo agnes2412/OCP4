@@ -391,12 +391,13 @@ h1 {
 
 .nav > li a:hover {
     background: transparent;
-    text-decoration: underline;
+    font-weight: bold;
+    color: #000000!important;
+    font-size: 18px;
 }
 .nav > li a:focus {
     background: transparent;
-    color: #F3976C; 
-     font-size: 18px; 
+    text-decoration: underline;
 }
 
 .navbar-toggle {
@@ -773,7 +774,7 @@ a {
 
 @media (max-width: 500px) {
     .titre2_paragraphe {
-        font-size: 13px!important;
+        font-size: 15px!important;
     }
 }
 
@@ -825,8 +826,10 @@ footer .white {
 }
 
 .tight-width-whitespace h2{
-    font-size: 20px!important;
+    font-size: 21px!important;
     line-height: 1.4em;
+    color: #f6bca0!important;
+    text-shadow: 3px 3px 3px #000000;
 }
 
 .tight-width-whitespace h3 {
@@ -970,10 +973,12 @@ h4 {
 
 .ltc-white:hover {
     color: #F3976C!important;
+    text-decoration: none!important;
+    text-shadow: 3px 3px 3px #000000;
 }
 
 .ltc-white:focus {
-    font-size: 26px;
+    font-size: 30px!important;
 }
 
 .ltc-atomic-tangerine {
