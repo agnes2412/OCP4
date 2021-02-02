@@ -549,6 +549,7 @@ button {
 .icon-md {
     font-size: 48px!important;
     color: rgba(0,0,0, .5)!important;
+    margin-bottom: 10px;
 }
 
 .icon-md:hover {
