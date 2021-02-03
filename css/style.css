@@ -48,6 +48,11 @@ a:hover {
     padding: 95px 50px;
 }
 
+.logo {
+    width: 100px;
+    height: 100px;
+}
+
 .portfolio_presentation {
     padding-top: 0;
     padding-bottom: 10px;
@@ -423,6 +428,11 @@ h1 {
     float: right;
     position: relative;
     z-index: 2;
+}
+
+.la-chouette-agence {
+    width: 214px;
+    height: 40px;
 }
 
 @media (min-width: 768px) {
