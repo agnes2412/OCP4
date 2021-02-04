@@ -62,7 +62,7 @@ a:hover {
     .portfolio_presentation {
     padding-top: 0px!important;
     padding-bottom: 10px;
-}
+    }
 }
 
 .bloc-md {
@@ -754,11 +754,6 @@ a {
     color: #575757!important;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
-
-
 .bloc h2 {
     margin-bottom: 25px;
     font-size: 25px;
@@ -770,7 +765,7 @@ a {
 
 .titre2_page2 {
     text-shadow: 2px 2px 2px rgba(0,0,0, .5);
-    font-size: 30px!important;
+    font-size: 36px!important;
 }
 
 @media (max-width: 500px) {
@@ -1045,10 +1040,10 @@ h4 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 80%;
     }
     .nav-center.navbar .nav {
-        max-width: 100%
+        max-width: 100%;
     }
 }
 
