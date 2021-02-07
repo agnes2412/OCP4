@@ -60,9 +60,9 @@ a:hover {
 
 @media (max-width: 768px) {
     .portfolio_presentation {
-    padding-top: 0px!important;
-    padding-bottom: 10px;
-}
+        padding-top: 0px!important;
+        padding-bottom: 10px;
+    }
 }
 
 .bloc-md {
@@ -305,8 +305,14 @@ q {
     font-style: italic;
 }
 
+@media (max-width: 500px) {
+    q {
+        font-size: 19px!important;
+    }
+}
+
 q cite {
-    font-size: 1em;
+    font-size: 1em!important;
 }
 
 .row-no-gutters {
@@ -327,19 +333,19 @@ h1 {
     margin: 20px 195px 10px 195px;
 }
 
-@media (max-width: 1200px){
+@media (max-width: 1200px) {
     h1 {
         margin: 20px 150px 10px 150px;
     }
 }
 
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
     h1 {
         margin: 20px 50px 10px 50px;
     }
 }
 
-@media (max-width: 700px){
+@media (max-width: 700px) {
     h1 {
         margin: 20px 0px 10px 0px;
     }
@@ -359,8 +365,12 @@ h1 {
     line-height: 44px;
 }
 
+.navbar-brand:hover {
+       border: 3px solid #F3976C;
+    }
+
 .navbar-brand:focus {
-    border: 2px solid #F3976C!important;
+    background-color: #F3976C!important;
 }
 
 .navbar-brand img {
@@ -597,7 +607,7 @@ button {
 }
 
 .form-control {
-    border-color: rgba(0, 0, 0, .1);
+    border-color: rgba(0, 0, 0, .8);
     box-shadow: none;
 }
 
@@ -687,17 +697,18 @@ a[data-lightbox]:hover img {
 }
 
 .close-lightbox {
+    display: inline-block;
     color: #FFF;
     font-size: 30px;
     position: absolute;
     top: 20px;
     right: 20px;
     z-index: 20;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0);
     border: none;
     line-height: 30px;
-    padding: 0 9px 5px;
-    opacity: 0.3;
+    padding: 5px 10px 5px;
+    opacity: 0.6;
 }
 
 .close-lightbox:hover,
@@ -711,12 +722,20 @@ a[data-lightbox]:hover img {
 .prev-lightbox {
     font-size: 20px;
     color: rgba(255, 255, 255, .9);
-    background: rgba(0, 0, 0, .5);
+    background: rgba(0, 0, 0);
     transition: all .2s ease-in-out;
     position: absolute;
     top: 45%;
     z-index: 1;
-    opacity: 0.4;
+    opacity: 0.6;
+}
+
+.fa-chevron-right {
+    color: white!important;
+}
+
+.fa-chevron-left {
+    color: white!important;
 }
 
 .next-lightbox {
@@ -755,8 +774,16 @@ a {
 }
 
 .bloc h2 {
-    margin-bottom: 25px;
-    font-size: 25px;
+    margin-bottom: 40px;
+    font-size: 30px;
+    padding: 0 47px;
+}
+
+@media (max-width: 500px) {
+    .bloc h2 {
+        font-size: 23px!important;
+        padding: 0; 
+    }
 }
 
 .titre2 {
@@ -835,7 +862,7 @@ footer .white {
 .tight-width-whitespace h2{
     font-size: 21px!important;
     line-height: 1.4em;
-    color: #f6bca0!important;
+    color: #F3976C!important;
     text-shadow: 3px 3px 3px #000000;
 }
 
@@ -900,7 +927,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(0, 0, 0, .4);
+    background-color: rgba(0, 0, 0, .6);
     padding: 40px 40px 40px 40px;
 }
 
@@ -939,9 +966,26 @@ h4 {
     font-weight: bold;
     color: #ffffff!important;
     text-shadow: 3px 3px 3px #000000;
+    background-color: rgb(0,0,0, .5);
+    padding: 30px 10px;
+    margin: 0 100px;
 }
 
-.text_contact{
+@media (max-width: 768px) {
+    .contactez_nous {
+        font-size: 20px!important;
+        margin: 0 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contactez_nous {
+        font-size: 20px!important;
+        margin: 0 20px;
+    }
+}
+
+.text_contact {
     color: #fcf8e3!important;
     font-size: 18px!important;
     font-family: "helvetica";
@@ -953,7 +997,7 @@ h4 {
 
 .nom_agence {
     color: #F3976C!important;
-    text-shadow: 4px 4px 4px black;
+    text-shadow: 3px 3px 3px black;
     font-size: 32px;
     font-family: "helvetica";
     font-weight: 400;
@@ -1040,10 +1084,10 @@ h4 {
 
 @media (max-width: 992px) and (min-width: 768px) {
     .navbar .nav {
-        max-width: 80%
+        max-width: 80%;
     }
     .nav-center.navbar .nav {
-        max-width: 100%
+        max-width: 100%;
     }
 }
 
@@ -1218,9 +1262,7 @@ h4 {
     form {
         padding: 5px;
     }
-    .close-lightbox {
-        display: inline-block;
-    }
+    
     .blocsapp-device-iphone5 {
         background-size: 216px 425px;
         padding-top: 60px;
