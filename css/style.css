@@ -62,6 +62,7 @@ a:hover {
     .portfolio_presentation {
         padding-top: 0px!important;
         padding-bottom: 10px;
+
     }
 }
 
@@ -397,7 +398,7 @@ h1 {
 .nav > li {
     float: left;
     margin-top: 4px;
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .navbar-nav .open .dropdown-menu > li > a {
@@ -924,6 +925,12 @@ h4 {
     margin-bottom: 24px;
 }
 
+@media (max-width: 768px) {
+    .portfolio-thumb {
+    display: inline-block;
+    }
+}
+
 .portfolio-row {
     margin-bottom: 0;
     margin-top: 0;
@@ -1127,8 +1134,7 @@ h4 {
     #hero-bloc {
         overflow-x: hidden;
         position: relative;
-    }
-    
+    } 
     .bloc-group,
     .bloc-group .bloc {
         display: block;
