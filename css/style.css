@@ -375,7 +375,8 @@ h1 {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+    max-height: 40px;
+    width: auto;
     margin: 0 5px 0 0;
     display: inline;
 }
