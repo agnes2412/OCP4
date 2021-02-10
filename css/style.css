@@ -577,7 +577,7 @@ button {
     color: #000000!important; 
 }
 
-.icon-md:focus-visible {
+.icon-md:focus {
     color: #ffffff!important;
 }
 
@@ -626,6 +626,10 @@ button {
 
 .scrollToTop:hover {
    background-color: rgba(0, 0, 0, .8);
+}
+
+.scrollToTop:focus {
+   background-color: #FFFFFF;
 }
 
 .scrollToTop span {
