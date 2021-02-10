@@ -913,6 +913,12 @@ footer .white {
     color: #333333!important;
 }
 
+@media (max-width: 768px) {
+    .med-width-whitespace h2 { 
+    font-size: 15px!important;
+    }
+}
+
 h4 {
     color: #333333!important;
 }
